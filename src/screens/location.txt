@@ -1,0 +1,49 @@
+import React from "react";
+import { motion } from "framer-motion";
+import images from "../images";
+import { useRef, useEffect, useState } from "react";
+
+
+function LocationScreen() {
+
+    const [width, setWidth] = useState(0);
+    const carousel = useRef();
+    useEffect(() => {
+        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+    }, [])
+
+    return (
+
+        <div className="app">
+            <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
+                <motion.div drag="x" dragConstraints={{ right: 0, left: -width }} className="inner-carousel">
+                    {images.map(image => {
+                        return (
+                            <motion.div className="item" key={image}>
+                                    <img src={image} alt="" />
+                                    
+                                
+                            </motion.div>
+                        );
+                    })}
+                </motion.div>
+            </motion.div><div>
+                                        <h1>hai</h1>
+                                    </div>
+        </div>
+        // <div className="maincontainer">
+
+        //           <div className="thecard">
+
+        //             <div className="thefront">
+        //                 <img src={img1} alt="img" className="location"/>
+        //             </div>
+
+        //             <div className="theback"><h1>Back of Card</h1><p>Your use of this site is subject to the terms and conditions governing this and all transactions.</p>
+        //             <button>Submit</button></div>
+
+        //           </div>
+        //         </div>
+    )
+}
+export default LocationScreen;

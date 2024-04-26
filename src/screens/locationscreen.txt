@@ -1,0 +1,70 @@
+import axios from "axios";
+import React, { useRef, useState, useEffect } from "react";
+import Locations from "../components/Locations";
+import Loader from "../components/Loader";
+import Error from "../components/Error";
+
+
+function LocationScreen() {
+
+    const [locations, setLocations] = useState([])
+    const [loading, setLoading] = useState()
+    const [error, setError] = useState();
+
+    const [searchKey, setSearchKey] = useState();
+    
+    
+
+    useEffect(() => {
+        async function fetchData() {
+
+            try {
+                setLoading(true)
+                const data = (await axios.get("/api/locations/getlocations")).data
+                setLocations(data)
+                setLoading(false)
+            } catch (error) {
+                setError(true)
+                console.log(error);
+                setLoading(false);
+
+            }
+
+        }
+        fetchData();
+    }, []);
+
+    var tempRooms = [];
+    for (const locations of duplicateRooms) {
+        var availability = false;
+    
+    function filterBySearch() {
+
+        const tempRooms = locations.filter(location => location.lname.toLowerCase().includes(searchKey.toLowerCase()))
+        setLocations(tempRooms)
+    }
+
+    return (
+        <div className="grid-container">
+
+            <input className="bs" type="text" placeholder="search places"
+                    value={searchKey} onChange={(e) => { setSearchKey(e.target.value) }} onKeyUp={filterBySearch}
+                />
+                <i className="fa-solid fa-magnifying-glass"></i>
+
+                {loading ? (<center><Loader/></center>) : error ? (<Error/>) : (locations.map(location => {
+                        return (
+                            <div className="item" key={location._id}>
+                                <Locations locations={location} />
+                            </div>
+                        );
+                    }))}
+                
+            <div>
+
+            </div>
+        </div>
+        
+    )
+}
+export default LocationScreen;
