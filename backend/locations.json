@@ -1,0 +1,182 @@
+[
+   {
+      "name":" Manali",
+      "imageurls":[
+         "https://images.pexels.com/photos/12614389/pexels-photo-12614389.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1500,
+      "type":"Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Manali"
+   },
+   {
+      "name":"Ladakh",
+      "imageurls":[
+         "https://images.pexels.com/photos/9605458/pexels-photo-9605458.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1500,
+      "type":"Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Hotel Shiva Sai Lodge is a furnished and modest property located in Regimental Bazaar, Shivaji Nagar, Secunderabad, Telangana.The property is in close vicinity to multiple tourist spots namely Sanjeeviah Park, Buddha Statue, Snow World, and Birla Science Museum."
+   },
+   {
+      "name":"Ooty",
+      "imageurls":[
+         "https://images.pexels.com/photos/14650437/pexels-photo-14650437.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":2000,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Hotel Shiva Sai Lodge is a furnished and modest property located in Regimental Bazaar, Shivaji Nagar, Secunderabad, Telangana.The property is in close vicinity to multiple tourist spots namely Sanjeeviah Park, Buddha Statue, Snow World, and Birla Science Museum."
+   },
+   {
+      "name":"Munnar",
+      "imageurls":[
+         "https://images.pexels.com/photos/15596957/pexels-photo-15596957.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1600,
+      "type":"Non-Delux",
+      "maxcount":4,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Kochi"
+   },
+   {
+      "name":"Taj Mahal",
+      "imageurls":[
+         "https://images.pexels.com/photos/5458393/pexels-photo-5458393.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Taj Mahal"
+   },
+   {
+      "name":"Koa",
+      "imageurls":[
+         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Koa"
+   },
+   {
+      "name":"Koa",
+      "imageurls":[
+         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Koa"
+   },
+   {
+      "name":"Koa",
+      "imageurls":[
+         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Koa"
+   },
+   {
+      "name":"Koa",
+      "imageurls":[
+         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Koa"
+   },
+   {
+      "name":"Koa",
+      "imageurls":[
+         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Koa"
+   },
+   {
+      "name":"Koa",
+      "imageurls":[
+         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Koa"
+   },
+   {
+      "name":"Koa",
+      "imageurls":[
+         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "located":"india",
+      "description":"Koa"
+   }
+]

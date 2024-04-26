@@ -1,0 +1,143 @@
+[
+   {
+      "name":"Goa,india",
+      "imageurls":[
+         "https://www.holidify.com/images/bgImages/GOA.jpg",
+         "https://cf.bstatic.com/images/hotel/max1024x768/191/191491623.jpg",
+         "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_307777376_20190822150057_20190822161317.jpg"
+      ],
+      "rentperday":1500,
+      "type":"Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "description":"Lying on the western coast, Goa is India's smallest state and unlike any other, known for its endless beaches, stellar nightlife, eclectic seafood, world-heritage listed architecture.",
+      "foodname":"",
+      "foodtype1":"",
+      "foodtype2":"",
+      "foodhealth":"",
+      "fooddescription":"",
+      "foodimgurls":[
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ]
+   },
+   {
+      "name":"Capital O 15959 The City Park",
+      "imageurls":[
+         "https://images.pexels.com/photos/9411140/pexels-photo-9411140.jpeg?auto=compress&cs=tinysrgb&w=600",
+         "https://images.oyoroomscdn.com/uploads/hotel_image/38668/large/d24b920cfdddeecb.jpg",
+         "https://images.oyoroomscdn.com/uploads/hotel_image/38668/large/58025558878fa4ec.jpg"
+      ],
+      "rentperday":1800,
+      "type":"Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "description":"Night Curfew in Telangana | Check-in allowed between 05:00 AM to 09:00 PM Couples are welcome Guests can check in using any local or outstation ID proof (PAN card not accepted). As a complimentary benefit, your stay is now insured by Acko.This hotel is serviced under the trade name of The City Park as per quality standards of OYO",
+      "foodname":"",
+      "foodtype":"",
+      "foodhealth":"",
+      "fooddescription":"",
+      "foodimgurls":[
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ]
+   },
+   {
+      "name":"Goa,india",
+      "imageurls":[
+         "https://q-xx.bstatic.com/xdata/images/hotel/max1200/168385984.jpg?k=3aabe2a7150bd931a3afb05c4e639feb91dae3a2b49a5bb70159da704e8349cf&o=",
+         "https://q-xx.bstatic.com/xdata/images/hotel/max1200/168386182.jpg?k=00d498dcec67f7af4587f6f2a7aa5289e20cdee9004b874b851f681b0af99492&o=",
+         "https://q-xx.bstatic.com/xdata/images/hotel/max1200/189694316.jpg?k=bfba100d1a419a83cddda0b64abce91c626550ae4cf29d691ab75050d3332ef9&o="
+      ],
+      "rentperday":2000,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "description":"Amboli receives the highest rainfalls in Maharashtra and thus remains pleasant all round the year. It attracts a lot of weekend visitors from Goa and Belgaum.",
+      "foodname":"",
+      "foodtype":"",
+      "foodhealth":"",
+      "fooddescription":"",
+      "foodimgurls":[
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ]
+   },
+   {
+      "name":"Kodaikanal",
+      "imageurls":[
+         "https://q-xx.bstatic.com/xdata/images/hotel/max1200/143503668.jpg?k=3fc4310830871b5ea8c4b70c573ada162c501b9e9480edbd4bba7c2c1690e8ff&o=",
+         "https://q-xx.bstatic.com/xdata/images/hotel/max1200/141807677.jpg?k=8fd09ee1ce57a18e4aa6ca8fa479771e597dcb420e1142ee72aebc29f973c47f&o=",
+         "https://www.holidify.com/images/cmsuploads/compressed/242341350_20220223182209.jpg"
+      ],
+      "rentperday":1600,
+      "type":"Non-Delux",
+      "maxcount":4,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "description":"Situated in Kodaikanal, The Meadows is a perfect location to spend quality time with family. It is a mini-resort with impressive facilities. The Meadows features a restaurant, a sun terrace, a garden, and a shared lounge.",
+      "foodname":"",
+      "foodtype":"",
+      "foodhealth":"",
+      "fooddescription":"",
+      "foodimgurls":[
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ]
+   },
+   {
+      "name":"Munnar,kerala",
+      "imageurls":[
+         "https://www.holidify.com/images/bgImages/AMBOLI.jpg",
+         "https://www.holidify.com/images/cmsuploads/compressed/278970821_20210521173158.jpg",
+         "https://images.oyoroomscdn.com/uploads/hotel_image/111796/large/2f7029d3c5429b5f.jpg"
+      ],
+      "rentperday":1800,
+      "type":"Non-Delux",
+      "maxcount":3,
+      "phonenumber":9989649278,
+      "currentbookings":[
+         
+      ],
+      "description":"Placed on the crest of a hill in Munnar, amidst acres of pristine landscape and lush greenery, this resort is a perfect blend of luxury and nature, offering a serene abode with an array of amenities.",
+      "foodname":"",
+      "foodtype":"",
+      "foodhealth":"",
+      "fooddescription":"",
+      "foodimgurls":[
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ]
+   }
+]
