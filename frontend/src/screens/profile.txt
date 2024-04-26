@@ -1,0 +1,65 @@
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { Tabs } from 'antd';
+
+const { TabPane } = Tabs;
+
+function ProfileScreen() {
+
+    const user = JSON.parse(localStorage.getItem("currentUser"));
+
+    useEffect(() => {
+
+        if (!user) {
+            window.location.href = "/login"
+        }
+
+    }, [])
+
+    return (
+        <div>
+            <Tabs defaultActiveKey="1">
+                <TabPane tab="Profile" key="1">
+                    <h1>My Profile</h1>
+
+                    <br />
+
+                    <h1>Name : {user.name}</h1>
+                    <h1>Email : {user.email}</h1>
+                    <h1>isAdmin : {user.isAdmin ? "YES" : "NO"}</h1>
+                </TabPane>
+                <TabPane tab="Bookings" key="2">
+                    <MyBookings />
+                </TabPane>
+            </Tabs>
+        </div>
+    )
+}
+export default ProfileScreen;
+
+export function MyBookings() {
+
+    const user = JSON.parse(localStorage.getItem("currentUser"));
+
+    useEffect(() => {
+        async function fetchData() {
+
+            try {
+
+                const rooms = await (await axios.post('/api/bookings/getBookingsByUserId', { userid: user._id })).data
+                console.log(rooms);
+
+            } catch (error) {
+                console.log(error);
+            }
+
+        }
+        fetchData();
+    }, [])
+
+    return (
+        <div>
+            <h1>MyBookings</h1>
+        </div>
+    )
+}
